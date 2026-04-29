@@ -2,7 +2,9 @@
 int dec(int n){
     if(n>0){ 
     printf("%d\n",n);
-    dec(n-1);
+        dec(n-1);
+    printf("%d\n",n);
+
     return 0;
     }
     
